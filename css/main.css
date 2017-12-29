@@ -155,6 +155,10 @@ p {
     margin-bottom: 15px;
 }
 
+li {
+    margin: 0px;
+}
+
 @media screen and (max-width:775px) {  
     .circular {
         display: none;
