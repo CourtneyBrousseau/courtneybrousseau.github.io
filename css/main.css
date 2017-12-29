@@ -98,7 +98,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+body { 
+    font-size: 62.5%; 
+    background-color: #FDFDFD;
+}
 
 h1 {
     font-family: 'Heebo', sans-serif;
@@ -108,6 +111,7 @@ h1 {
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-size: 5vw;
+    margin-bottom: 10px;
 }
 
 p {
@@ -117,14 +121,35 @@ p {
     padding-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    font-size: 1.25vw;
+    line-height: 2;
 }
 
 .container {
-    background-color: #456545;
     margin-top: 0px;
     width: 100vw;
     padding: 2%;
     margin: 0px;
+}
+
+.circular {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:775px) {  
+    .circular {
+        display: none;
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    p {
+        font-size: 3vw;
+    }
 }
 
 /* ==========================================================================
