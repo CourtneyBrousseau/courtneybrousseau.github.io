@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i');
-@import url("https://fonts.googleapis.com/css?family=Heebo:300,600,900");
+@import url("https://fonts.googleapis.com/css?family=Heebo:400,500,600,900");
 /*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -108,21 +108,36 @@ h1 {
     font-weight: 600;
     margin-top: 0px;
     padding-top: 0px;
-    margin-bottom: 0px;
     padding-bottom: 0px;
-    font-size: 5vw;
+    font-size: 4.5vw;
     margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 2.5vw;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 1.75vw;
+    margin-bottom: 5px;
 }
 
 p {
     font-family: 'Libre Baskerville', serif;
     font-style: italic;
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
     font-size: 1.25vw;
-    line-height: 2;
+    line-height: 2vw;
 }
 
 .container {
@@ -130,6 +145,8 @@ p {
     width: 100vw;
     padding: 2%;
     margin: 0px;
+    z-index: 2;
+    position: absolute;
 }
 
 .circular {
@@ -147,8 +164,34 @@ p {
         font-size: 7vw;
     }
 
+    h2 {
+        font-size: 5vw;
+    }
+
     p {
-        font-size: 3vw;
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+}
+
+@media screen and (min-width:775px) {  
+    .right {
+        padding-left: 6%;
+    }
+
+    .fixed {
+        position: fixed;
+        width: 25%;
+    }
+
+    #background {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 29%;
+        height: 100%;
+        background-color: #F0F0F0;
+        z-index: 1;
     }
 }
 
