@@ -142,6 +142,10 @@ p {
     color: #606060;
 }
 
+.bigger {
+    font-size: 125%;
+}
+
 .container {
     margin-top: 0px;
     width: 100vw;
@@ -228,8 +232,8 @@ ul li {
     }
 
     .right { 
-        padding-left: 3%;
-        padding-right: 3%;
+        padding-left: 8%;
+        padding-right: 8%;
     }
 }
 
