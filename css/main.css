@@ -142,8 +142,10 @@ p {
     color: #606060;
 }
 
-.bigger {
+.bigger p {
     font-size: 125%;
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
 }
 
 .smaller {
