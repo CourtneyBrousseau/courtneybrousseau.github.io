@@ -27,66 +27,7 @@
         <script src="js/main.js"></script>
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script src="js/vendor/jquery-3.2.1.min.js"></script>
-
-        <script>
-        var TxtType = function(el, toRotate, period) {
-        this.toRotate = toRotate;
-        this.el = el;
-        this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
-        this.txt = '';
-        this.tick();
-        this.isDeleting = false;
-    };
-
-    TxtType.prototype.tick = function() {
-        var i = this.loopNum % this.toRotate.length;
-        var fullTxt = this.toRotate[i];
-
-        if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-        } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
-        }
-
-        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-        var that = this;
-        var delta = 200 - Math.random() * 100;
-
-        if (this.isDeleting) { delta /= 2; }
-
-        if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-        }
-
-        setTimeout(function() {
-        that.tick();
-        }, delta);
-    };
-
-    window.onload = function() {
-        var elements = document.getElementsByClassName('typewrite');
-        for (var i=0; i<elements.length; i++) {
-            var toRotate = elements[i].getAttribute('data-type');
-            var period = elements[i].getAttribute('data-period');
-            if (toRotate) {
-              new TxtType(elements[i], JSON.parse(toRotate), period);
-            }
-        }
-        // INJECT CSS
-        var css = document.createElement("style");
-        css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-        document.body.appendChild(css);
-    };
-    </script>        
+        <script src="js/vendor/jquery-3.2.1.min.js"></script>  
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -97,39 +38,41 @@
         <div id="background"></div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-3 left">
                     <div class="fixed">
                     <img class="circular" src="img/me.jpeg" />
                     <h1>Courtney Brousseau</h1>
                     <h2>
-                      <span class="typewrite" data-period="2000" data-type='[ "Student @ UC Berkeley", "Aspiring Civic Technologist", "Developer", "Amateur Dog Spotter" ]'>
+                      <span class="typewrite" data-period="2000" data-type='[ "UC Berkeley Student", "Aspiring Civic Technologist", "Developer", "Amateur Dog Spotter" ]'>
                         <span class="wrap"></span>
                       </span>
                     </h2>
-                    <a href="https://www.facebook.com/courtney.brousseau" target="new">
-                        <i class="fa fa-3x fa-facebook-square" style="color: #3b5998; margin-right: 5px;"></i>
-                    </a>
-                    <a href="https://www.twitter.com/cbrewsayso" target="new">
-                        <i class="fa fa-3x fa-twitter-square" style="color: #1DA1F2; margin-right: 5px;"></i>
-                    </a>
-                    <a href="https://www.instagram.com/courtneybrewsayso" target="new">
-                        <i class="fa fa-3x fa-instagram" style="color: #cd486b; margin-right: 5px;"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/courtneybrousseau" target="new">
-                        <i class="fa fa-3x fa-linkedin-square" style="color: #0077B5; margin-right: 5px;"></i>
-                    </a>
-                    <a href="https://github.com/CourtneyBrousseau" target="new">
-                        <i class="fa fa-3x fa-github-square" style="color: #000000; margin-right: 5px;"></i>
-                    </a>
-                    </br>   
-                    </br>
-                    <p>courtney.brousseau (at) berkeley.edu</p>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/courtney.brousseau" target="new">
+                            <i class="fa fa-2x fa-facebook-square socialmediaicon facebook" ></i>
+                        </a>
+                        <a href="https://www.twitter.com/cbrewsayso" target="new">
+                            <i class="fa fa-2x fa-twitter-square socialmediaicon twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/courtneybrewsayso" target="new">
+                            <i class="fa fa-2x fa-instagram socialmediaicon instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/courtneybrousseau" target="new">
+                            <i class="fa fa-2x fa-linkedin-square socialmediaicon linkedin"></i>
+                        </a>
+                        <a href="https://github.com/CourtneyBrousseau" target="new">
+                            <i class="fa fa-2x fa-github-square socialmediaicon github"></i>
+                        </a>
+                        <a href="mailto:courtney.brousseau@berkeley.edu" target="new">
+                            <i class="fa fa-2x fa-envelope socialmediaicon email"></i>
+                        </a>
+                    </div>
                 </div>
                 </div>
                 <div class="col-sm-9 right">
-                    <h1><i class="em em-wave"></i></h1>
+                    <!--<h1><i class="em em-wave"></i></h1>-->
                     <h1>Hi!</h1> 
-                    <p>I'm a junior at the <a href="https://twitter.com/realDonaldTrump/status/827112633224544256?ref_src=twsrc%5Etfw&ref_url=https%3A%2F%2Fwww.washingtonpost.com%2Fnews%2Fgrade-point%2Fwp%2F2017%2F02%2F01%2Fberkeley-cancels-speech-by-breitbrart-writer-milo-amid-intense-protests%2F" target="new">University of California, Berkeley</a> studying Economics & Computer Science. I'm passionate about <a href="https://medium.com/@CivicWhitaker/what-is-civic-tech-b61a58c3eba8" target="new">civic technology</a>, improving Berkeley, and learning new things. I'm a font fanatic, television junkie, and amateur <a href="https://www.facebook.com/groups/dogspotting/" target="new">dog spotter</a>. And to answer your question: yes, <a href="http://www.babynameshub.com/gendercompare.cfm?Name=Courtney" target="new">Courtney is usually a girl's name</a>.</p>
+                    <p>I'm a junior at the <a href="https://twitter.com/realDonaldTrump/status/827112633224544256?ref_src=twsrc%5Etfw&ref_url=https%3A%2F%2Fwww.washingtonpost.com%2Fnews%2Fgrade-point%2Fwp%2F2017%2F02%2F01%2Fberkeley-cancels-speech-by-breitbrart-writer-milo-amid-intense-protests%2F" target="new">University of California, Berkeley</a> (go bears!) studying Economics & Computer Science. I'm passionate about <a href="https://medium.com/@CivicWhitaker/what-is-civic-tech-b61a58c3eba8" target="new">civic technology</a>, improving Berkeley, and learning new things. I'm a font fanatic, television junkie, and amateur <a href="https://www.facebook.com/groups/dogspotting/" target="new">dog spotter</a>. I listen to Beyoncé and Hamilton on repeat. Having lived in Indianapolis, (near) Los Angeles, Boston, Berkeley, and San Diego, I can say without a doubt: west coast, best coast. And to answer your question: yes, <a href="http://www.babynameshub.com/gendercompare.cfm?Name=Courtney" target="new">Courtney is usually a girl's name</a>.</p>
                     <p>If you'd like something more formal, check out my <a href="CourtneyBrousseau_Resume.pdf" target="new">resume</a>.</p>
                     </br>
 
@@ -137,22 +80,30 @@
                     <hr>
 
                     <h3>Chair, <a href="http://studentunion.berkeley.edu" target="new">ASUC Student Union</a> Board of Directors</h3>
-                    <ul>
-                        <li>
-                            <p>Appointed as one of two undergraduates on the board, representing 25,000+ undergraduates</p>
-                        </li>
-                        <li>
-                            <p>Non-profit management of 4 dining options, official Student Store, two campus buildings, student advising LEAD center, Art Studio, and campus Event Services</p>
-                        </li>
-                    </ul>
+                    <p>I was appointed as one of two undergraduates on the board, representing 25,000+ undergraduates. The board oversees the non-profit management of 4 dining options, official Student Store, two campus buildings, student advising LEAD center, Art Studio, and campus Event Services.</p>
                     </br>
 
                     <h3>Product Manager, Berkeley Mobile</h3>
-                    <p>Hi!</p>
+                    <p>Berkeley Mobile is a mobile application used by students to access campus resources like bus schedules and dining hall menus. I work with an amazing team of engineers/designers to maintain & upgrade the app, which has 12,000 downloads and 4,000 average monthly users on iOS & Android. I just finished implementing the first-ever user testing of the app to assess user needs.</p>
                     </br>
 
                     <h3>Founding Co-Captain, Code for the City of Berkeley</h3>
-                    <p>Hi!</p>
+                    <p>I'm starting a new <a href="https://www.codeforamerica.org" target="new">Code for America</a> brigade (volunteer chapter) in Berkeley to bridge the gap between government’s mission and technology’s potential.</p>
+                    </br>
+
+                    <h2>What I've Done</h2>
+                    <hr>
+
+                    <h3>Intern, <a href="https://xqsuperschool.org/" target="new">XQ: The Super School Project</a></h3>
+                    <p>I worked on projects to increase student involvement in XQ’s mission, including prototyping a student activism toolkit and creating new engagement techniques for the XQ bus tour. I also spoke on a panel about student voice at the Clinton Global Initiative University (CGIU) as the youngest and only undergraduate speaker.</p>
+                    </br>
+
+                    <h3>Product Manager, Berkeley Mobile</h3>
+                    <p>Berkeley Mobile is a mobile application used by students to access campus resources like bus schedules and dining hall menus. I work with an amazing team of engineers/designers to maintain & upgrade the app, which has 12,000 downloads and 4,000 average monthly users on iOS & Android. I just finished implementing the first-ever user testing of the app to assess user needs.</p>
+                    </br>
+
+                    <h3>Founding Co-Captain, Code for the City of Berkeley</h3>
+                    <p>I'm starting a new <a href="https://www.codeforamerica.org" target="new">Code for America</a> brigade (volunteer chapter) in Berkeley to bridge the gap between government’s mission and technology’s potential.</p>
                     </br>
 
                     <h2>Side Projects</h2>
@@ -169,11 +120,11 @@
                         <a href="https://accessca.github.io" target="new"><i class="fa fa-1x fa-link" style="margin-right: 2px;"></i></a>
                         <a href="https://github.com/AccessCA/AccessCA.github.io" target="new"><i class="fa fa-1x fa-github-square" style="margin-right: 2px;"></i></a>
                     </h3>
-                    <p>Built an Angular.js web app to simplify determining eligibility for government programs like CalFresh, MediCal, etc. as a part of Computer Science 194 ("Computing for Social Good").</p>
+                    <p>I built an Angular.js web app to simplify determining eligibility for government programs like CalFresh, MediCal, etc. as a part of a semester-long, partner project in Computer Science 194 ("Computing for Social Good"). This project was inspired by my experience as an advocate (caseworker) for <a href="https://healthleadsusa.org/" target="new">Health Leads</a> helping patients at the West County Health Center connect to government and community resources.</p>
                     </br>
 
                     <h3>Berkeley Forum Slack Integrations</h3>
-                    <p>Built 4 integrations in Node.js/Google Scripts to improve club workflows, including a purchase request notifier.</p>
+                    <p>I built 4 integrations in Node.js/Google Scripts to improve and automate club workflows, including a purchase request notifier, a social calendar event creator, and a weekly social event reminder.</p>
                 </div>
             </div>
         </div> 

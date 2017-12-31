@@ -99,10 +99,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body { 
-    font-size: 13;
-    line-height: 1.5;
+    font-size: 62.5%; 
     background-color: #FDFDFD;
-    overflow-x:hidden;
 }
 
 h1 {
@@ -111,8 +109,8 @@ h1 {
     margin-top: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
+    font-size: 4.5vw;
     margin-bottom: 10px;
-    font-size: 324%;
 }
 
 h2 {
@@ -121,8 +119,8 @@ h2 {
     margin-top: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
+    font-size: 2.5vw;
     margin-bottom: 10px;
-    font-size: 219%;
 }
 
 h3 {
@@ -131,14 +129,15 @@ h3 {
     margin-top: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
+    font-size: 1.75vw;
     margin-bottom: 5px;
-    font-size: 148%;
 }
 
 p {
     font-family: 'Libre Baskerville', serif;
     font-style: italic;
-    font-size: 100%;
+    font-size: 1.25vw;
+    line-height: 1.75vw;
     color: #606060;
 }
 
@@ -160,7 +159,7 @@ p {
 }
 
 .socialmediaicon {
-    margin-right: 4px;
+    margin-right: 5px;
 }
 
 .socialmediaicon:hover {
@@ -191,26 +190,12 @@ p {
     color: #333333;
 }
 
-.email {
-    color: #909497;
-}
-
 ul li {
     margin: 0px;
     padding: 0px; 
 }
 
-@media screen and (max-width:850px) {  
-    h1 {
-        font-size: 300%;
-    }
-}
-
-@media screen and (max-width:768px) {  
-    body {
-        font-size: 12px;
-    }
-
+@media screen and (max-width:775px) {  
     .circular {
         width: 50%;
     }
@@ -227,13 +212,21 @@ ul li {
         margin-top: 0px;
     }
 
-    .right { 
-        padding-left: 3%;
-        padding-right: 3%;
+    h1 {
+        font-size: 7vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    p {
+        font-size: 3vw;
+        line-height: 4vw;
     }
 }
 
-@media screen and (min-width:768px) {  
+@media screen and (min-width:775px) {  
     .right {
         padding-left: 6%;
     }
@@ -251,12 +244,6 @@ ul li {
         height: 100%;
         background-color: #F0F0F0;
         z-index: 1;
-    }
-}
-
-@media screen and (min-width:1100px) {  
-    h1 {
-        font-size: 400%;
     }
 }
 
