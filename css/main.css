@@ -146,6 +146,10 @@ p {
     font-size: 125%;
 }
 
+.smaller {
+    font-size: 75%;
+}
+
 .container {
     margin-top: 0px;
     width: 100vw;
