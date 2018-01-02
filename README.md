@@ -1,2 +1,5 @@
 # courtneybrousseau.github.io
-Personal website
+This is my personal website. 
+
+Typewriter effect credit:
+https://css-tricks.com/snippets/css/typewriter-effect/
