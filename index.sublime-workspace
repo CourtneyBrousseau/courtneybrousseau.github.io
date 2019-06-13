@@ -1,0 +1,617 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"POC",
+				"POCKET_ACCESS_TOKEN"
+			],
+			[
+				"search",
+				"search_results"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"text-f",
+				"text-transform"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"ju",
+				"julissa_arce"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"ff",
+				"FFC000"
+			],
+			[
+				"dee",
+				"deepak_ahuja"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"align",
+				"align-self"
+			],
+			[
+				"sara",
+				"sarah_kate_ellis"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"top",
+				"margin-top"
+			],
+			[
+				"curr",
+				"current_indents"
+			],
+			[
+				"current",
+				"current_category"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"index",
+				"indexOfSmallM"
+			],
+			[
+				"merge",
+				"mergeSortedQueues"
+			],
+			[
+				"goal",
+				"goalBoard1"
+			],
+			[
+				"right",
+				"rightIndex"
+			],
+			[
+				"left",
+				"leftPriority"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"paretn",
+				"parentIndex"
+			],
+			[
+				"parent",
+				"parentIndex"
+			],
+			[
+				"get",
+				"getParentOf"
+			],
+			[
+				"ha",
+				"haveNiceHashCodeSpread"
+			],
+			[
+				"hash",
+				"hashCode"
+			],
+			[
+				"map",
+				"mapSize"
+			],
+			[
+				"to",
+				"to1D"
+			],
+			[
+				"union",
+				"WeightedQuickUnionUF"
+			],
+			[
+				"N",
+				"N"
+			],
+			[
+				"add",
+				"addFive2"
+			],
+			[
+				"contains",
+				"containsKey"
+			],
+			[
+				"window",
+				"windowHeight"
+			],
+			[
+				"Scro",
+				"ScrollBarListener"
+			],
+			[
+				"windo",
+				"windowHeight"
+			],
+			[
+				"lastSpace",
+				"lastSpaceNode"
+			],
+			[
+				"text",
+				"textList"
+			],
+			[
+				"Text",
+				"TextDeque"
+			],
+			[
+				"Te",
+				"TextDeque"
+			],
+			[
+				"Tex",
+				"TextBuffer"
+			],
+			[
+				"curo",
+				"cursorBlink"
+			],
+			[
+				"St",
+				"StudentLinkedListDeque"
+			],
+			[
+				"print",
+				"printDeque"
+			],
+			[
+				"testReally",
+				"testReallyBigMixed"
+			],
+			[
+				"testREally",
+				"testReallyBigBackFront"
+			],
+			[
+				"remove",
+				"removeLast"
+			],
+			[
+				"red",
+				"reduces"
+			],
+			[
+				"test",
+				"testResizingWhenAddingFront"
+			],
+			[
+				"new",
+				"newArrayDeque"
+			],
+			[
+				"Array",
+				"ArrayDeque"
+			],
+			[
+				"Arra",
+				"ArrayDeque"
+			],
+			[
+				"front",
+				"frontIndex"
+			],
+			[
+				"gt",
+				"getEndPointOfFront"
+			],
+			[
+				"getRe",
+				"getRecursiveTest"
+			],
+			[
+				"getR",
+				"getRecursiveHelper"
+			],
+			[
+				"planet",
+				"Planet"
+			],
+			[
+				"calc",
+				"calcForceExertedByX"
+			],
+			[
+				"new_",
+				"new_random_piece"
+			],
+			[
+				"lost",
+				"check_lost"
+			],
+			[
+				"no",
+				"no_options_for_piece"
+			],
+			[
+				"make-",
+				"make-product"
+			],
+			[
+				"sums",
+				"sums_second"
+			],
+			[
+				"xs",
+				"xs_copy"
+			],
+			[
+				"glob",
+				"global_count"
+			],
+			[
+				"globa",
+				"global-reset"
+			],
+			[
+				"glo",
+				"global_count"
+			],
+			[
+				"li",
+				"link_to_change"
+			],
+			[
+				"positive",
+				"positive_branches"
+			],
+			[
+				"check",
+				"check_win_diagonal"
+			],
+			[
+				"check_",
+				"check_win_column"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"java Board "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Courtney/Desktop/Spreadsheet/script.py",
+		"/Users/Courtney/Desktop/courtneybrousseau.github.io/index.html",
+		"/Users/Courtney/Desktop/request.py",
+		"/Users/Courtney/Desktop/forum-website/lineup/lineup.css",
+		"/Users/Courtney/Desktop/maps.html",
+		"/Users/Courtney/Desktop/emails.py",
+		"/Users/Courtney/Desktop/emails/google/google.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/Fall 2015/CS61A/Side Projects/Watson.py",
+		"/Users/Courtney/Desktop/emails/emails.py",
+		"/Users/Courtney/Desktop/forum-website/lineup/index.html",
+		"/Users/Courtney/Desktop/forum-website/css/style.css",
+		"/Users/Courtney/Desktop/TBF Website/js/smoothscroll.js",
+		"/Users/Courtney/Desktop/forum-website/lineup.html",
+		"/Users/Courtney/Desktop/TBF Website/lineup1.2.html",
+		"/Users/Courtney/Desktop/stationstest.js",
+		"/Users/Courtney/Desktop/metroalexa.js",
+		"/Users/Courtney/Desktop/metrostations.js",
+		"/Users/Courtney/Desktop/googletest.js",
+		"/Users/Courtney/Desktop/TBF Website/utils.js",
+		"/Users/Courtney/Desktop/Chart.js",
+		"/Users/Courtney/Desktop/test.py",
+		"/Users/Courtney/Desktop/awards.xml",
+		"/Users/Courtney/Desktop/membership_maker.py",
+		"/Users/Courtney/Desktop/team_helper.html",
+		"/Users/Courtney/Desktop/TBF Website/meet_our_team.html",
+		"/Users/Courtney/Desktop/TBF Website/events.html",
+		"/Users/Courtney/Desktop/TBF Website/team.html",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/Fall 2015/CS61A/homework/hw09/hw09.sql",
+		"/Users/Courtney/Desktop/TBF Website/videos.html",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/Fall 2015/CS61A/projects/scheme/questions.scm",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/Fall 2015/CS61A/homework/hw08/hw08.scm",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/Fall 2015/CS61A/homework/hw07/hw07.scm",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/Fall 2015/CS61A/homework/hw08/hw08-MORE.scm",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/Fall 2015/CS61A/homework/quiz03/quiz03.scm",
+		"/Users/Courtney/Desktop/TBF Website/index.html",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/Fall 2015/CS61A/projects/scheme/scheme.py",
+		"/Users/Courtney/Desktop/Spoon-Knife/index.html",
+		"/Users/Courtney/Desktop/webfontkit-20161104-004436/stylesheet.css",
+		"/Users/Courtney/Desktop/Staff Directory | ASUC.html",
+		"/Users/Courtney/Desktop/TBF Website/FAQ.html",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/Fall 2015/CS61A/projects/ants/ants.py",
+		"/Users/Courtney/Desktop/TBF Website/index-old.html",
+		"/Users/Courtney/Desktop/TBF Website/old-index.html",
+		"/Users/Courtney/Desktop/Slides-SlidesJS-3/examples/basic-slide/index.html",
+		"/Users/Courtney/Desktop/TBF Website/js/bios.js",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/Fall 2015/CS61A/homework/hw04/hw04.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/Fall 2015/CS61A/homework/hw03/hw03.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/Fall 2015/CS61A/homework/hw05/hw05.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/Fall 2015/CS61A/homework/hw02/hw02.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/Fall 2015/CS61A/projects/hog/hog.py",
+		"/Users/Courtney/Desktop/TBF Website/events-updated.html",
+		"/Users/Courtney/Desktop/TBF Website/berkeley-forum-announces-fall-2016-event-lineup.html",
+		"/Users/Courtney/Desktop/Berkeley Forum Website/berkeley-forum-announces-fall-2016-event-lineup.html",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/hw6/Boggle.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/lab14/SawToothGenerator.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/lab13/RadixSort.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/lab12/MergeSort.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/lab11/MazeDepthFirstPaths.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/hw4/hw4/puzzle/Board.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/lab11/BreadthFirstDemo.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/hw4/hw4/puzzle/Solver.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/lab10/MagicWord10.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/hw3/hw3/hash/TestComplexOomage.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/hw3/hw3/hash/HashTableVisualizer.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/hw3/hw3/hash/SimpleOomage.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/lab9/lab9tester/TestMyHashMap.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/hw2/hw2/PercolationVisualizer.java",
+		"/Users/Courtney/Downloads/game.py",
+		"/Users/Courtney/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/editor/TextBuffer.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/editor/WriteFile.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/editor/TextDeque.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/editor/ScrollBarListener.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/editor/ScreenSizeListener.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/editor/OpenFile.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/editor/MouseClickHandler.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/editor/KeyEventHandler.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/editor/Editor.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/examples/MouseClickPositionPrinter.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/examples/ResizeAllen.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/examples/KeyPressPrinter.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/examples/PathDrawer.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/examples/ClipboardExample.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/examples/SingleLetterDisplaySimple.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/editor/Cursor.java",
+		"/Users/Courtney/Desktop/TowerDefense/tower.py",
+		"/Users/Courtney/Downloads/tower.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/hw1/GuitarHeroLite.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/hw1/synthesizer/ArrayRingBuffer.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/lab6/huglife/HugLife.java",
+		"/Users/Courtney/Desktop/game.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/lab5/MagicWord5.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj2/MagicWord5.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj1c/OffByN.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj1c/Deque.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj1c/Palindrome.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj1c/OffByOne.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj1c/PalindromeFinder.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj1/LinkedListDeque.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/lab3/Flik/Flik.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj1/ArrayDeque.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj1/ArrayDequeTest.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj0/NBody.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj0/Planet.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/lab2/Intlist/IntList.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/lab1/LeapYear.java",
+		"/Users/Courtney/Desktop/test_moon/NBody.java",
+		"/Users/Courtney/Desktop/proj0/Moon.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj0/examples/InDemo.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj0/TestReadRadius.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/proj0/TestPlanetConstructor.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61B/ahb/lab1/Year.java",
+		"/Users/Courtney/Downloads/brian's snake.py",
+		"/Users/Courtney/temp/HelloWorld.java",
+		"/Users/Courtney/Desktop/HW0.java",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61A/BreakOut.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61A/Catan/classes.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61A/Catan/game.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61A/Pong/pong.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61A/Catan/gui.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61A/Catan/setup_board.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61A/Catan/setup_game.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61A/Catan/game,py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61A/2048/2048.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61A/homework/quiz04/quiz04.sql",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61A/homework/hw09/hw09.sql",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61A/lab/lab14/lab14.py",
+		"/Users/Courtney/Google Drive/Berkeley/Classes/CS61A/projects/scheme/tests.scm"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
